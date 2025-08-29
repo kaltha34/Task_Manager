@@ -9,6 +9,7 @@ async function bootstrap() {
     .setTitle('Task manager API')
     .setDescription('API documnetation for Task manager')
     .setVersion('1.0')
+    .addBearerAuth() // 👈 adds JWT auth option in Swagger UI
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
