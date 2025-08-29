@@ -3,6 +3,7 @@
     "start:dev": "nest start --watch"
   },
   "devDependencies": {
+    "@types/mongoose": "^5.11.96",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4"
   },
@@ -11,6 +12,9 @@
     "@nestjs/core": "^11.1.6",
     "@nestjs/platform-express": "^11.1.6",
     "@nestjs/swagger": "^11.2.0",
-    "@types/node": "^24.3.0"
+    "@types/node": "^24.3.0",
+    "@nestjs/mongoose": "^11.0.3",
+    "class-validator": "^0.14.2",
+    "mongoose": "^8.18.0"
   }
 }
