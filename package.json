@@ -4,6 +4,7 @@
   },
   "devDependencies": {
     "@types/mongoose": "^5.11.96",
+    "@types/passport": "^1.0.17",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4"
   },
@@ -14,7 +15,10 @@
     "@nestjs/swagger": "^11.2.0",
     "@types/node": "^24.3.0",
     "@nestjs/mongoose": "^11.0.3",
+    "@nestjs/passport": "^11.0.5",
     "class-validator": "^0.14.2",
-    "mongoose": "^8.18.0"
+    "mongoose": "^8.18.0",
+    "passport": "^0.7.0",
+    "swagger-ui-express": "^5.0.1"
   }
 }
