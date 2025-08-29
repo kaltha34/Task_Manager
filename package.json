@@ -1,9 +1,12 @@
 {
   "devDependencies": {
+    "@types/passport": "^1.0.17",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4"
   },
   "dependencies": {
-    "@nestjs/common": "^11.1.6"
+    "@nestjs/common": "^11.1.6",
+    "@nestjs/passport": "^11.0.5",
+    "passport": "^0.7.0"
   }
 }
